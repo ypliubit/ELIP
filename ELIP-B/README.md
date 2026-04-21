@@ -16,15 +16,15 @@ The csv file containing training data caption and urls can be found in [this lin
 ### Step1. Download dataset annotations
 
 &nbsp;&nbsp;&nbsp;&nbsp; Occluded COCO:
-[karpathy_test_cat_id_2_occ_img_negative_img.json](https://drive.google.com/file/d/1E4e-5dv41Vt6fKUDEzXQjLpWLdabqj2G/view?usp=drive_link)
+[karpathy_test_cat_id_2_occ_img_negative_img.json](https://thor.robots.ox.ac.uk/elip/elip_c/step1/karpathy_test_cat_id_2_occ_img_negative_img.json)
 
 &nbsp;&nbsp;&nbsp;&nbsp; ImageNet-R:
-[imagenet-r-annfile.json](https://drive.google.com/file/d/1c90b0Fn3Lioa0WGbY3neUJd8MM6VAWYq/view?usp=drive_link),
-[imagenet-r-cat2name.json](https://drive.google.com/file/d/10eeYPXohxf_qli3-fNPwzIo4EF6AOd-y/view?usp=drive_link)
+[imagenet-r-annfile.json](https://thor.robots.ox.ac.uk/elip/elip_c/step1/imagenet-r-annfile.json),
+[imagenet-r-cat2name.json](https://thor.robots.ox.ac.uk/elip/elip_c/step1/imagenet-r-cat2name.json)
 
 ### Step2. Download pretrained models
 &nbsp;&nbsp;&nbsp;&nbsp; ELIP-B models:
-[ELIP-B](https://drive.google.com/file/d/1XGTAlsZzneeudCCFSlEXmZWMNNzg-hgI/view?usp=sharing)
+[ELIP-B](https://thor.robots.ox.ac.uk/elip/elip_b/full_model_iccv_v27-20241229044-checkpoint_0.pth)
 
 
 ### Step3. Organize the files
