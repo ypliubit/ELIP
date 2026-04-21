@@ -17,55 +17,55 @@ The csv file containing training data caption and urls can be found in [this lin
 
 ### Step1. Download dataset annotations
 &nbsp;&nbsp;&nbsp;&nbsp; COCO:
-[coco_test.csv](https://drive.google.com/file/d/1FG-HK2mX0XhHTU8bUysLy-cKzovGmV3P/view?usp=sharing),
-[coco_test_txtid2imgid.json](https://drive.google.com/file/d/14kgWYc2HcwzRf82bzuN_1DaIMys0WJaU/view?usp=drive_link)
+[coco_test.csv](https://thor.robots.ox.ac.uk/elip/elip_c/step1/coco_test.csv),
+[coco_test_txtid2imgid.json](https://thor.robots.ox.ac.uk/elip/elip_c/step1/coco_test_txtid2imgid.json)
 
 &nbsp;&nbsp;&nbsp;&nbsp; Flickr:
-[flickr_test.csv](https://drive.google.com/file/d/1R6iyG96GL3bHo84NTX5g8vVrUJgVAsPX/view?usp=sharing),
-[flickr_test_txtid2imgid.json](https://drive.google.com/file/d/193u8zxKhbL8LnDtJ-qKmPv8xp9FnFnc9/view?usp=drive_link)
+[flickr_test.csv](https://thor.robots.ox.ac.uk/elip/elip_c/step1/flickr_test.csv),
+[flickr_test_txtid2imgid.json](https://thor.robots.ox.ac.uk/elip/elip_c/step1/flickr_test_txtid2imgid.json)
 
 &nbsp;&nbsp;&nbsp;&nbsp; Occluded COCO:
-[karpathy_test_cat_id_2_occ_img_negative_img.json](https://drive.google.com/file/d/1E4e-5dv41Vt6fKUDEzXQjLpWLdabqj2G/view?usp=drive_link)
+[karpathy_test_cat_id_2_occ_img_negative_img.json](https://thor.robots.ox.ac.uk/elip/elip_c/step1/karpathy_test_cat_id_2_occ_img_negative_img.json)
 
 &nbsp;&nbsp;&nbsp;&nbsp; ImageNet-R:
-[imagenet-r-annfile.json](https://drive.google.com/file/d/1c90b0Fn3Lioa0WGbY3neUJd8MM6VAWYq/view?usp=drive_link),
-[imagenet-r-cat2name.json](https://drive.google.com/file/d/10eeYPXohxf_qli3-fNPwzIo4EF6AOd-y/view?usp=drive_link)
+[imagenet-r-annfile.json](https://thor.robots.ox.ac.uk/elip/elip_c/step1/imagenet-r-annfile.json),
+[imagenet-r-cat2name.json](https://thor.robots.ox.ac.uk/elip/elip_c/step1/imagenet-r-cat2name.json)
 
 ### Step2. Download pretrained models
 &nbsp;&nbsp;&nbsp;&nbsp; ELIP-C models:
-[ELIP-C](https://drive.google.com/file/d/1BavChS8PaekpYawJoG25w2BCmkmgwSoF/view?usp=drive_link),
-[ELIP-C(fine-tuned on COCO)](https://drive.google.com/file/d/129u5oCiG-w2SA1BGeZuD1DW3-85NW4H3/view?usp=drive_link),
-[ELIP-C(fine-tuned on ImageNet)](https://drive.google.com/file/d/1Gg-EvqjrW-hx2j8eorB2-C1t63QLyADn/view?usp=drive_link)
+[ELIP-C](https://thor.robots.ox.ac.uk/elip/elip_c/step2/12.15_v2_2024_12_15-07_14_55-model_ViT-B-16-lr_0.001-b_20-j_8-p_amp-epoch_1.pt),
+[ELIP-C(fine-tuned on COCO)](https://thor.robots.ox.ac.uk/elip/elip_c/step2/12.15_v2_2025_01_13-13_31_24-model_ViT-B-16-lr_1e-05-b_20-j_8-p_amp-epoch_2.pt),
+[ELIP-C(fine-tuned on ImageNet)](https://thor.robots.ox.ac.uk/elip/elip_c/step2/12.15_v2_2025_01_14-07_04_20-model_ViT-B-16-lr_1e-05-b_20-j_8-p_amp-epoch_2.pt)
 
 &nbsp;&nbsp;&nbsp;&nbsp; ELIP-S models:
-[ELIP-S](https://drive.google.com/file/d/1s5ciaAwOmxBEiVDJ-9wh2huMu5vOrIib/view?usp=drive_link),
-[ELIP-S(fine-tuned on COCO)](https://drive.google.com/file/d/1gD60L4WtbwbcEgo7ICWte2QohvZmaYYQ/view?usp=drive_link),
-[ELIP-S(fine-tuned on ImageNet)](https://drive.google.com/file/d/1YVPu5fA6PUM1f0zWeng_wXJIl4nwpny9/view?usp=drive_link)
+[ELIP-S](https://thor.robots.ox.ac.uk/elip/elip_c/step2/3.2_v5_2025_02_27-23_40_38-model_ViT-SO400M-14-SigLIP-384-lr_0.001-b_5-j_8-p_amp-epoch_1.pt),
+[ELIP-S(fine-tuned on COCO)](https://thor.robots.ox.ac.uk/elip/elip_c/step2/3.2_v5_2025_03_04-20_44_20-model_ViT-SO400M-14-SigLIP-384-lr_1e-05-b_5-j_8-p_amp-epoch_2.pt),
+[ELIP-S(fine-tuned on ImageNet)](https://thor.robots.ox.ac.uk/elip/elip_c/step2/3.2_v5_2025_03_04-17_40_12-model_ViT-SO400M-14-SigLIP-384-lr_1e-05-b_5-j_8-p_amp-epoch_2.pt)
 
 &nbsp;&nbsp;&nbsp;&nbsp; ELIP-S2 models:
-[ELIP-S-2](https://drive.google.com/file/d/1hDgYlMwRvC1DZTa689ILjjgCB1THpQcl/view?usp=drive_link),
-[ELIP-S-2(fine-tuned on COCO)](https://drive.google.com/file/d/1lga5DHrakHP2ip04RKAXa7_0lsZ8z3w_/view?usp=drive_link),
-[ELIP-S-2(fine-tuned on ImageNet)](https://drive.google.com/file/d/1QKyaz8I-7J_7vrmJYF6Y1oNh6kbf9Hlx/view?usp=drive_link)
+[ELIP-S-2](https://thor.robots.ox.ac.uk/elip/elip_c/step2/3.2_v6_2025_02_28-12_15_47-model_ViT-gopt-16-SigLIP2-384-lr_0.001-b_5-j_8-p_amp-epoch_1.pt),
+[ELIP-S-2(fine-tuned on COCO)](https://thor.robots.ox.ac.uk/elip/elip_c/step2/3.2_v6_2025_03_04-20_44_51-model_ViT-gopt-16-SigLIP2-384-lr_1e-05-b_5-j_8-p_amp-epoch_2.pt),
+[ELIP-S-2(fine-tuned on ImageNet)](https://thor.robots.ox.ac.uk/elip/elip_c/step2/3.2_v6_2025_03_04-17_40_13-model_ViT-gopt-16-SigLIP2-384-lr_1e-05-b_5-j_8-p_amp-epoch_2.pt)
 
 
 ### Step3. Download pre-computed baseline model features
 &nbsp;&nbsp;&nbsp;&nbsp; CLIP features:
-[COCO](https://drive.google.com/file/d/1dWrSnYOsLSbLUv4pjyxylRPcLwxuJ1zs/view?usp=drive_link), 
-[Flickr](https://drive.google.com/file/d/1YvHT5wuXlGsuHyRSELME6RwDEwjzMHUb/view?usp=drive_link), 
-[Occluded COCO](https://drive.google.com/file/d/1BXLZdI8xFR32hSilAdE6bytFlzfZdrCr/view?usp=drive_link), 
-[ImageNet-R](https://drive.google.com/file/d/1ROHdlCnIL4aZ_HXOo7z89PyTjfQdZd9p/view?usp=drive_link)
+[COCO](https://thor.robots.ox.ac.uk/elip/elip_c/step3/clip_vitb16_standard_coco_infer_img_txt_features_10.24.pkl), 
+[Flickr](https://thor.robots.ox.ac.uk/elip/elip_c/step3/clip_vitb16_standard_flickr_infer_img_txt_features_10.24.pkl), 
+[Occluded COCO](https://thor.robots.ox.ac.uk/elip/elip_c/step3/occluded_coco_clip_feat_revised_11.7.pkl), 
+[ImageNet-R](https://thor.robots.ox.ac.uk/elip/elip_c/step3/imagenet-r_clip_feat.pkl)
 
 &nbsp;&nbsp;&nbsp;&nbsp; SigLIP features:
-[COCO](https://drive.google.com/file/d/15007D8F4i1_ZzpZbUrbFMBI9liOCf2am/view?usp=drive_link),
-[Flickr](https://drive.google.com/file/d/1VX76_2csqh3stQQhuBlrNcKQ2uahIrLM/view?usp=drive_link),
-[Occluded COCO](https://drive.google.com/file/d/1cSaVCYRyacrQRRO7GQF_DLYV3jhGuggF/view?usp=drive_link),
-[ImageNet-R](https://drive.google.com/file/d/1Z1Q36n1mLtDRG3i7m0kKlkn-CtBd6Khj/view?usp=drive_link)
+[COCO](https://thor.robots.ox.ac.uk/elip/elip_c/step3/siglipSO400M_standard_coco_infer_img_txt_features_2.26.pkl),
+[Flickr](https://thor.robots.ox.ac.uk/elip/elip_c/step3/siglipSO400M_standard_flickr_infer_img_txt_features_2.26.pkl),
+[Occluded COCO](https://thor.robots.ox.ac.uk/elip/elip_c/step3/occluded_coco_revised_siglipSO_feat.pkl),
+[ImageNet-R](https://thor.robots.ox.ac.uk/elip/elip_c/step3/imagenet-r_siglipSO_feat.pkl)
 
 &nbsp;&nbsp;&nbsp;&nbsp; SigLIP2 features:
-[COCO](https://drive.google.com/file/d/1wJuT0KhQ9t5vvQ2TU1VFcO91YAAj_sTO/view?usp=drive_link),
-[Flickr](https://drive.google.com/file/d/1F709fG22MX58aF1GpE-NYsvMF16umQI5/view?usp=drive_link),
-[Occluded COCO](https://drive.google.com/file/d/1-v9wCWvqcrq8DThn8aFVr_t2f09j14mX/view?usp=drive_link),
-[ImageNet-R](https://drive.google.com/file/d/1WVaoo_FwnsX_MkOY3wtClTJ8K2VG6Isd/view?usp=drive_link)
+[COCO](https://thor.robots.ox.ac.uk/elip/elip_c/step3/siglip2G_standard_coco_infer_img_txt_features_2.26.pkl),
+[Flickr](https://thor.robots.ox.ac.uk/elip/elip_c/step3/siglip2G_standard_flickr_infer_img_txt_features_2.26.pkl),
+[Occluded COCO](https://thor.robots.ox.ac.uk/elip/elip_c/step3/occluded_coco_revised_siglip2G_feat.pkl),
+[ImageNet-R](https://thor.robots.ox.ac.uk/elip/elip_c/step3/imagenet-r_siglip2G_feat.pkl)
 
 ### Step4. Organize the files
 
