@@ -9,7 +9,7 @@ This is the implementation of the IEEE CBMI 2025 paper "ELIP: Enhanced Visual-La
 
 
 ## Evaluation Dataset 
-The datasets we use in this work include: [COCO](https://drive.google.com/file/d/1dbTYF778NZ9gkaZpAjmu-Q-VvAfPAR9x/view?usp=sharing), [Flickr](https://drive.google.com/file/d/1ACRUyIPYlDnaPKXBgfvUTDAEGnh5jhW4/view?usp=sharing), [Occluded COCO](https://drive.google.com/drive/folders/1duYPsnoyslUkQ9MJpWMOi4Q13ml-5IwS?usp=drive_link) and [ImageNet-R](https://drive.google.com/file/d/1i-m5Fbmyp84kXc1SMKwi5SukGawETdgM/view?usp=sharing)
+The datasets we use in this work include: [COCO](https://thor.robots.ox.ac.uk/elip/main/images.zip), [Flickr](https://thor.robots.ox.ac.uk/elip/main/flickr30k-images.zip), [Occluded COCO](https://drive.google.com/drive/folders/1duYPsnoyslUkQ9MJpWMOi4Q13ml-5IwS?usp=drive_link) and [ImageNet-R](https://thor.robots.ox.ac.uk/elip/main/imagenet-r.zip)
 
 ## Running
 For ELIP-C, ELIP-S, and ELIP-S2, change into the `ELIP-C` directory and follow the corresponding [README](./ELIP-C/README.md). For ELIP-B, change into the `ELIP-B` directory and consult its [README](./ELIP-B/README.md).
